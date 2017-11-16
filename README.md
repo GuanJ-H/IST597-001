@@ -8,7 +8,7 @@ The goal of this project is to layout deep investment techniques in financial ma
 ### Dataset
 Dataset Name: Yahoo!finance<br />
 Data Attibutes:
-&nbsp;Open, High, Low, Close, Volume, Time
+&nbsp;Open, High, Low, Close, Adjusted Close, Volume, Time
 
 ### Basic Approach
 Since the stock market data are actually time-series data, recurrent neural networks (RNNs) can be applied to predict strock market movement. RNN is one type of newural networks that take advatanges of the the sequential nature of time-series data. Some other traditional methods (e.g. Logistic Regression, Support Vector Machine, etc.) will also be implemented as baseline models. In addition, if time permits, we will also try sentiment/textual analysis and see its influence on stock market prediction.

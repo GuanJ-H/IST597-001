@@ -1,37 +1,20 @@
-## Welcome to GitHub Pages
+## Term Project of IST 597-001: Stock Market Prediction
+Stock market prediction is an very important topic in financial economics. A good prediction of a stock's future movement can bring significant profit.
 
-You can use the [editor on GitHub](https://github.com/GuanJ-H/IST597001/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+### Goals
+The goal of this project is to layout deep investment techniques in financial markets using deep learning models. Stock market prediction always involve variety of data which is difficult to design an ideal economic modelv. Deep learning models are able to explot potentiallu non-linear patterns in such data which can help prediction.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+### Basic Approach
+Since the stock market data can be considered as time-series data, recurrent neural networks (RNNs) can be applied to predict strockmarket movement. RNN is one type of newural networks that take advatanges of the the sequential nature of time-series data. We will also implement some traditional methods (e.g. Logistic Regression, Support Vector Machine, etc.) as baseline model. In addition, if time permits, we will also try sentiment/textual analysis and see its influence on stock market prediction.
 
-### Markdown
+### Anticipated Results
+We will compare the our proposed approach with the baseline model in terms of loss, accuracy, receiver operating characteristic (ROC). We anticipate it can take advantages of the sequential nature and outperform the baseline models.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
-```markdown
-Syntax highlighted code block
+### Relevant Bibliography
+[1] Chong, Eunsuk, Chulwoo Han, and Frank C. Park. "Deep learning networks for stock market analysis and prediction: Methodology, data representations, and case studies." Expert Systems with Applications 83 (2017): 187-205.<br />
+[2] Aggarwal, Saurabh, and Somya Aggarwal. "Deep Investment in Financial Markets using Deep Learning Models." International Journal of Computer Applications 162.2 (2017).<br />
+[3] Ding, Xiao, et al. "Deep Learning for Event-Driven Stock Prediction." Ijcai. 2015.<br />
+[4] Wikipedia contributors. "Stock market prediction." Wikipedia, The Free Encyclopedia. Wikipedia, The Free Encyclopedia, 15 Sep. 2017. Web. 16 Nov. 2017.<br />
 
-# Header 1
-## Header 2
-### Header 3
 
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/GuanJ-H/IST597001/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.

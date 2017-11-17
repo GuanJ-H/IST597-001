@@ -3,7 +3,7 @@ Stock market prediction is an very important and classic topic in financial econ
 of the computer, machine learning and deep learning techniques become efficient approaches to solve this problem.
 
 ### Goals
-The goal of this project is to layout deep investment techniques in financial markets using  artificial neural networks (e.g. deep learning models). Stock market prediction always involve variety of data which is difficult to design an ideal economic model. Deep learning models are able to exploit potentiallt non-linear patterns in such data which can help prediction.
+The goal of this project is to layout deep investment techniques in financial markets using  artificial neural networks (e.g. deep learning models). Stock market prediction always involve variety of data which is difficult to design an ideal economic model. Deep learning models are able to exploit potentially non-linear patterns in such data which can help prediction.
 
 ### Dataset
 Dataset Name: Yahoo!finance<br />

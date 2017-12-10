@@ -10,7 +10,7 @@ The goal of this project is to layout deep investment techniques in financial ma
 ### Dataset
 Dataset Name: WIKI PRICE<br />
 Acquisition Approach: Quandl API
-Data Attibutes:
+Data Attibutes: 
 &nbsp;Open, High, Low, Close, Adjusted Close, Volume, Time
 
 ### Basic Approach

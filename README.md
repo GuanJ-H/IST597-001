@@ -8,7 +8,8 @@ Stock market prediction tends to be a very complicated and difficult problem for
 The goal of this project is to layout deep investment techniques in financial markets using  artificial neural networks (e.g. deep learning models). Stock market prediction always involve variety of data which is difficult to design an ideal economic model. Deep learning models are able to exploit potentially non-linear patterns in such data which can help prediction.
 
 ### Dataset
-Dataset Name: Yahoo!finance<br />
+Dataset Name: WIKI PRICE<br />
+Acquisition Approach: Quandl API
 Data Attibutes:
 &nbsp;Open, High, Low, Close, Adjusted Close, Volume, Time
 

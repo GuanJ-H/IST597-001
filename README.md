@@ -24,6 +24,15 @@ Jin Zhang: Developer <br />
 Jacob Oury: Developer<br />
 Guanjie Huang: Developer
 
+### Description of each .py file
+**stick_collect_quandl.py**: collect stock data from WIKI PRICE database.<br />
+**preprocessData.py**: preprocess the data. <br />
+**stock+prediction-DL**: predict the stock by deep learning model (e.g., LSTM, GRU). <br />
+**stock+prediction-ML**: predict the stock by machine learning model (e.g., linear regression). <br />
+**stock_pretrain_model.py**: pretrain a deep learning model by using a bunch of stock data of other companies.<br />
+**stock+with+pretrain+model.py**: Using the pretrained model to fit the stock data of one company, and predict the this company's future stock price. 
+
+
 ### Relevant Bibliography
 [1] Chong, Eunsuk, Chulwoo Han, and Frank C. Park. "Deep learning networks for stock market analysis and prediction: Methodology, data representations, and case studies." Expert Systems with Applications 83 (2017): 187-205.<br />
 [2] Aggarwal, Saurabh, and Somya Aggarwal. "Deep Investment in Financial Markets using Deep Learning Models." International Journal of Computer Applications 162.2 (2017).<br />

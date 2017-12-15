@@ -32,6 +32,8 @@ Guanjie Huang: Developer
 **stock_pretrain_model.py**: pretrain a deep learning model by using a bunch of stock data of other companies.<br />
 **stock+with+pretrain+model.py**: Using the pretrained model to fit the stock data of one company, and predict the this company's future stock price. 
 
+### Note
+To run the project, please first run **stick_collect_quandl.py** to collect data and run **preprocessData.py** preprocess the data. Also, you need to replace the default path (which is the path that I used in ICS-ACI server) with your own path.
 
 ### Relevant Bibliography
 [1] Chong, Eunsuk, Chulwoo Han, and Frank C. Park. "Deep learning networks for stock market analysis and prediction: Methodology, data representations, and case studies." Expert Systems with Applications 83 (2017): 187-205.<br />
